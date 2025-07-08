@@ -18,7 +18,7 @@ const Layout = ({ user, onLogout }) => {
       const token = localStorage.getItem("token")
       if (!token) throw new Error("No auth token found")
 
-      const { data } = await axios.get("https://taskmanagerbackend-a0a2.onrender.com/api/tasks/gp", {
+      const { data } = await axios.get("https://taskmanager-220001876521.asia-south2.run.app/api/tasks/gp", {
         headers: { Authorization: `Bearer ${token}` }
       })
 

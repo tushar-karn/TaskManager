@@ -5,7 +5,7 @@ import { UserPlus } from "lucide-react"
 import { Inputwrapper, FIELDS, BUTTONCLASSES, MESSAGE_SUCCESS, MESSAGE_ERROR } from '../assets/dummy'
 
 // Dummy & Constants
-const API_URL = "https://taskmanagerbackend-a0a2.onrender.com"
+const API_URL = "https://taskmanager-220001876521.asia-south2.run.app"
 const INITIAL_FORM = { name: "", email: "", password: "" }
 
 const SignUp = ({ onSwitchMode }) => {

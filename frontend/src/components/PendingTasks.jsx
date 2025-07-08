@@ -5,7 +5,7 @@ import TaskItem from '../components/TaskItem';
 import TaskModal from '../components/AddTask';
 import { layoutClasses } from '../assets/dummy';
 
-const API_BASE = 'https://taskmanagerbackend-a0a2.onrender.com/api/tasks';
+const API_BASE = 'https://taskmanager-220001876521.asia-south2.run.app/api/tasks';
 const sortOptions = [
   { id: 'newest', label: 'Newest', icon: <SortDesc className="w-3 h-3" /> },
   { id: 'oldest', label: 'Oldest', icon: <SortAsc className="w-3 h-3" /> },

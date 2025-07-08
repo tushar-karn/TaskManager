@@ -5,7 +5,7 @@ import TaskModal from "./AddTask"
 import { getPriorityColor, getPriorityBadgeColor, TI_CLASSES, MENU_OPTIONS, } from "../assets/dummy"
 import { CheckCircle2, MoreVertical, Clock, Calendar } from "lucide-react"
 
-const API_BASE = "https://taskmanagerbackend-a0a2.onrender.com/api/tasks"
+const API_BASE = "https://taskmanager-220001876521.asia-south2.run.app/api/tasks"
 
 const TaskItem = ({ task, onRefresh, onLogout, showCompleteCheckbox = true }) => {
   const [showMenu, setShowMenu] = useState(false)

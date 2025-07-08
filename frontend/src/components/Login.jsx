@@ -16,7 +16,7 @@ const Login = ({ onSubmit, onSwitchMode }) => {
   const [rememberMe, setRememberMe] = useState(false)
   const [loading, setLoading] = useState(false)
   const navigate = useNavigate()
-  const url = "https://taskmanagerbackend-a0a2.onrender.com"
+  const url = "https://taskmanager-220001876521.asia-south2.run.app"
 
   // Auto-login
   useEffect(() => {

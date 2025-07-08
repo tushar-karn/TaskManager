@@ -12,7 +12,7 @@ import {
 } from '../assets/dummy'
 
 // API Base
-const API_BASE = "https://taskmanagerbackend-a0a2.onrender.com/api/tasks"
+const API_BASE = "https://taskmanager-220001876521.asia-south2.run.app/api/tasks"
 
 const Dashboard = () => {
   const { tasks, refreshTasks } = useOutletContext()
